@@ -24,10 +24,10 @@
     - No exemplo eu utilizei os campos nome e power
     - O SQL de validação está no arquivo unique-data.sql
     - Não fiz a validação de dados já existentes no banco, mas seria interessante
-  - Nomes iguais com potências diferentes
-    - Nesse caso não sei o que deveria ser feito
-    - Se era para somar as potências
-    - Se era para considerar somente a potência mais alta
-    - Como não foi definido o que deveria fazer nesse caso não fiz nenhuma tratativa
-  - Troquei o valor de power de Double para BigDecimal 
-    - A troca foi feita porque teve uma resposta com notação cientifica
+- Nomes iguais com potências diferentes
+  - Nesse caso não sei o que deveria ser feito
+  - Se era para somar as potências
+  - Se era para considerar somente a potência mais alta
+  - Como não foi definido o que deveria fazer nesse caso não fiz nenhuma tratativa
+- Troquei o valor de power de Double para BigDecimal 
+  - A troca foi feita porque teve uma resposta com notação cientifica
